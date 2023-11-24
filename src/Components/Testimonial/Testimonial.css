@@ -1,0 +1,26 @@
+.testimonalCon{
+    width: 80%;
+    margin: 10%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; 
+
+}
+.tetty{
+    background-color: #fff;
+    text-align: center;
+    padding: 0 10px;
+    height: 55vh;
+    border: 1px solid rgba(60, 57, 57, 0.4);
+}
+
+.tetty img{
+   display: block;
+   margin: 20px auto 28px;
+}
+.slick-prev:hover:before, 
+.slick-next:hover:before {
+    color: #bdf1f6 !important;
+}
+.slick-prev:before, 
+.slick-next:before {
+    transition: color 0.3s ease-in-out;
+}

@@ -1,0 +1,137 @@
+.footerContainer{
+    margin-top: 90px;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+}
+.logo2{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.logotext2{
+    color: #fff;
+    font-family: Fraunces;
+}
+.spa{
+    color: #bdf1f6;
+}
+.textAbout{
+    color: #cccbcb;
+    margin-left: 20px;
+}
+.usefulLink{
+    margin-top: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #bdf1f6;
+    transition: 0.5s ease-in-out;
+}
+.links a:hover{
+    color: rgba(226, 0, 0, 0.5);
+}
+.use{
+    text-transform: uppercase;
+    color: #eee;
+    margin-left: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.followUs{
+    margin-top: 30px;
+}
+.US{
+    text-transform: uppercase;
+    color: #eee;
+    margin-left: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;    
+}
+.COntact{
+
+}
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+.footP{
+    color: #cccbcb;
+    margin-left: 20px;
+}
+.fname{
+    border: none;
+    width: 70%;
+    height: 47px;
+    margin-bottom: 10px;
+}
+.email{
+    border: none;
+    width: 60%;
+    height: 47px;
+    margin-bottom: 10px;
+}
+.message{
+    border: none;
+    width: 60%;
+    height: 47px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.fBtn{
+    border: none;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: #bdf1f6;
+    transition: 0.5s ease-in-out;
+}
+.fBtn:hover{
+    background-color: rgba(226, 0, 0, 0.5);
+
+}
+.copyright{
+    background-color: #212121;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.cpp{
+    color: #eee;
+    text-align: center;
+}
+.cp{
+    color: #bdf1f6;
+    
+}
+
+
+
+@media screen and (min-width: 995px) {
+    .footerContainer{
+        display: flex;
+        flex-direction: row;
+        padding-top: 5%;
+        padding-bottom: 6%;
+    }
+    .logo2{
+        margin-top: 0px !important;
+    }
+    .usefulLink{
+        margin-top: 0;
+    }
+    .followUs{
+        margin-top: 0;
+    }
+    .fname, .email, .message{
+        width: 80%;
+    }
+}

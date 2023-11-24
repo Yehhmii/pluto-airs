@@ -1,0 +1,109 @@
+.chipContainer{
+    display: flex;
+    flex-direction: column;
+}
+.service1{
+    background-color: #ffffff;
+    width: 80%;
+    height: 420px;
+    margin: 10%;
+    padding: 5%;
+    position: relative;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+      
+}
+.serimg{
+    margin-left: 35%;
+}
+.serh3{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 600;
+}
+.serp{
+    text-align: center;
+}
+.clip{
+    background-image: url('../../images/blog-3.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 150px;
+    width: 90%;
+    clip-path: circle(50% at 0 0);
+    transition: all 2s ease;
+}
+.clip:hover{
+    clip-path: circle(100%);
+}
+.chiph3{
+    margin-top: 105px;
+    margin-left: 120px;
+    font-weight: 600;
+}
+.clip2{
+    background-image: url('../../images/weather-bg.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 150px;
+    width: 90%;
+    clip-path: circle(50% at 100% 0);
+    transition: all 2s ease;
+}
+.clip2:hover{
+    clip-path: circle(100%);
+}
+.chip2h3{
+    margin-top: 100px;
+    font-weight: 600;
+}
+.clip3{
+    background-image: url('../../images/header5.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 150px;
+    width: 90%;
+    clip-path: circle(50% at 0 0);
+    transition: all 2s ease;
+}
+.clip3:hover{
+    clip-path: circle(100%);
+}
+.find3{
+    height: 450px;
+}
+
+
+@media screen and (min-width: 995px) {
+    .chipContainer{
+        display: flex;
+        flex-direction: row;
+        /* gap: 10px; */
+    }
+    .service1{
+        background-color: #ffffff;
+        width: 30%;
+        height: 420px;
+        margin: 0%;
+        margin-bottom: 100px;
+        left: 45px;
+    }
+    .light2{
+        z-index: 1;
+    }
+    .clip{
+        left: 15px;
+    }
+    .clip2{
+        clip-path: circle(50% at 0 0);
+        left: 15px;
+    }
+    .clip3{
+        left: 15px;
+    }
+}

@@ -1,0 +1,87 @@
+.AboutCard{
+    display: flex;
+    flex-direction: column;
+}
+.img2 img{
+    margin: 10%;
+    width: 80%;
+    height: 500px;
+}
+.aboutText{
+    background-color: #ffffff;
+    width: 80%;
+    margin: 10%;
+    padding: 5%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+}
+.abouth6{
+    margin-top: 10%;
+    color: #bdf1f6;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.abouth3{
+    font-family: Fraunces;
+    font-size: calc(1.375rem + 1.8vw);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.aboutp{
+    font-size: large;
+}
+.aboutImg{
+    display: flex;
+    gap: 10px;
+}
+.aboutImg img{
+    width: 50%;
+}
+.aboutBtn{
+    border: none;
+    width: 120px;
+    height: 47px;
+    margin-top: 20px;
+    margin-left: 30%;
+    background-color: #bdf1f6;
+    transition: 0.5s;
+}
+.aboutBtn:hover{
+    background-color: #b0d8c4;
+}
+
+
+
+@media screen and (min-width: 995px) {
+    .AboutCard{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .img2 img{
+        margin: 0;
+        margin-top: 2%;
+        margin-left: 15%;
+        width: 90%;
+        height: 700px;
+    }
+    .aboutText{
+        width: 50%;
+        margin: 0%;
+        padding: 5%;
+        padding-bottom: 0%;
+        margin-top: 50px;
+        margin-left: -50px;
+        height: 600px;
+    }
+    .abouth6{
+        margin-top: 0%;
+    }
+    .abouth3{
+        font-family: Fraunces;
+        font-size: calc(1.2rem + 1.8vw);
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}

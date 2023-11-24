@@ -1,0 +1,32 @@
+*{
+    font-family: montserrat, Quicksand, Fraunces, Tangerine;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  background-color: #eeeeee;
+    --sb-track-color: #232E33;
+    --sb-thumb-color: #b0d8c4;
+    --sb-size: 13px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size) 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 8px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 8px;
+    border: 3px solid #232E33;
+    }
