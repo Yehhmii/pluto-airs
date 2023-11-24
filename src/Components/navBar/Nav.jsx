@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./Nav.css";
 import logo from "../../images/airplane-logo.svg";
 import menu from "../../images/menu-up.svg";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   const [showMenu, setShowMenu] = useState();
@@ -26,18 +27,24 @@ export default function Nav() {
           <nav>
             <ul>
               <li>
-                <a href="">
+                <Link to='/'>
                   <span>Home</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="">About</a>
+              <Link to='/about'>
+                  About
+                </Link>
               </li>
               <li>
-                <a href="">Reservations</a>
+              <Link to='/destionation'>
+                  Destination
+                </Link>
               </li>
               <li>
-                <a href="">Contact Us</a>
+              <Link to='/contact'>
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </nav>
